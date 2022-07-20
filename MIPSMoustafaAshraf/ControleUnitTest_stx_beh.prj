@@ -1,0 +1,2 @@
+vhdl isim_temp "Controle_Unit.vhd"
+vhdl isim_temp "ControleUnitTest.vhd"

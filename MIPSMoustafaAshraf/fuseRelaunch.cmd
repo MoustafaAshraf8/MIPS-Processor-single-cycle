@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "D:/Mina/temp/Mostafa Ashraf/Moustafa Ashraf MIPS project/MIPSMoustafaAshraf/MipsSingleCycle_isim_beh.exe" -prj "D:/Mina/temp/Mostafa Ashraf/Moustafa Ashraf MIPS project/MIPSMoustafaAshraf/MipsSingleCycle_beh.prj" "work.MipsSingleCycle" 

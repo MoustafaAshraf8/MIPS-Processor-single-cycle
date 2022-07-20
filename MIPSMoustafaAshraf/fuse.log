@@ -1,0 +1,46 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o D:/Mina/temp/Mostafa Ashraf/Moustafa Ashraf MIPS project/MIPSMoustafaAshraf/MipsSingleCycle_isim_beh.exe -prj D:/Mina/temp/Mostafa Ashraf/Moustafa Ashraf MIPS project/MIPSMoustafaAshraf/MipsSingleCycle_beh.prj work.MipsSingleCycle 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 16
+Turning on mult-threading, number of parallel sub-compilation jobs: 32 
+Determining compilation order of HDL files
+Parsing VHDL file "D:/Mina/temp/Mostafa Ashraf/Moustafa Ashraf MIPS project/MIPSMoustafaAshraf/SignExtend.vhd" into library work
+Parsing VHDL file "D:/Mina/temp/Mostafa Ashraf/Moustafa Ashraf MIPS project/MIPSMoustafaAshraf/ShiftLeftby2.vhd" into library work
+Parsing VHDL file "D:/Mina/temp/Mostafa Ashraf/Moustafa Ashraf MIPS project/MIPSMoustafaAshraf/RegisterFile.vhd" into library work
+Parsing VHDL file "D:/Mina/temp/Mostafa Ashraf/Moustafa Ashraf MIPS project/MIPSMoustafaAshraf/PC_Adder.vhd" into library work
+Parsing VHDL file "D:/Mina/temp/Mostafa Ashraf/Moustafa Ashraf MIPS project/MIPSMoustafaAshraf/PC.vhd" into library work
+Parsing VHDL file "D:/Mina/temp/Mostafa Ashraf/Moustafa Ashraf MIPS project/MIPSMoustafaAshraf/MUX5bit.vhd" into library work
+Parsing VHDL file "D:/Mina/temp/Mostafa Ashraf/Moustafa Ashraf MIPS project/MIPSMoustafaAshraf/MUX21.vhd" into library work
+Parsing VHDL file "D:/Mina/temp/Mostafa Ashraf/Moustafa Ashraf MIPS project/MIPSMoustafaAshraf/Memory.vhd" into library work
+Parsing VHDL file "D:/Mina/temp/Mostafa Ashraf/Moustafa Ashraf MIPS project/MIPSMoustafaAshraf/InstructionMemory.vhd" into library work
+Parsing VHDL file "D:/Mina/temp/Mostafa Ashraf/Moustafa Ashraf MIPS project/MIPSMoustafaAshraf/Controle_Unit.vhd" into library work
+Parsing VHDL file "D:/Mina/temp/Mostafa Ashraf/Moustafa Ashraf MIPS project/MIPSMoustafaAshraf/ALUcontrole.vhd" into library work
+Parsing VHDL file "D:/Mina/temp/Mostafa Ashraf/Moustafa Ashraf MIPS project/MIPSMoustafaAshraf/ALU.vhd" into library work
+Parsing VHDL file "D:/Mina/temp/Mostafa Ashraf/Moustafa Ashraf MIPS project/MIPSMoustafaAshraf/Adder.vhd" into library work
+Parsing VHDL file "D:/Mina/temp/Mostafa Ashraf/Moustafa Ashraf MIPS project/MIPSMoustafaAshraf/MipsSingleCycle.vhd" into library work
+WARNING:HDLCompiler:946 - "D:/Mina/temp/Mostafa Ashraf/Moustafa Ashraf MIPS project/MIPSMoustafaAshraf/MipsSingleCycle.vhd" Line 340: Actual for formal port s is neither a static name nor a globally static expression
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling package numeric_std
+Compiling architecture behavioral of entity PC [pc_default]
+Compiling architecture behavioral of entity InstructionMemory [instructionmemory_default]
+Compiling architecture behavioral of entity Controle_Unit [controle_unit_default]
+Compiling architecture behavioral of entity MUX5bit [mux5bit_default]
+Compiling architecture behavioral of entity RegisterFile [registerfile_default]
+Compiling architecture behavioral of entity SignExtend [signextend_default]
+Compiling architecture behavioral of entity MUX21 [mux21_default]
+Compiling architecture behavioral of entity ALUcontrole [alucontrole_default]
+Compiling architecture behavioral of entity ALU [alu_default]
+Compiling architecture behavioral of entity Memory_Unit [memory_unit_default]
+Compiling architecture behavioral of entity PC_Adder [pc_adder_default]
+Compiling architecture behavioral of entity ShiftLeftby2 [shiftleftby2_default]
+Compiling architecture behavioral of entity Adder [adder_default]
+Compiling architecture behavioral of entity mipssinglecycle
+Time Resolution for simulation is 1ps.
+Compiled 32 VHDL Units
+Built simulation executable D:/Mina/temp/Mostafa Ashraf/Moustafa Ashraf MIPS project/MIPSMoustafaAshraf/MipsSingleCycle_isim_beh.exe
+Fuse Memory Usage: 39456 KB
+Fuse CPU Usage: 530 ms

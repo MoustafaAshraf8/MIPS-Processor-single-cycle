@@ -1,0 +1,68 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to D:/Student/Desktop/lab3/MIPSMoustafaAshraf/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.11 secs
+ 
+--> Parameter xsthdpdir set to D:/Student/Desktop/lab3/MIPSMoustafaAshraf/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.11 secs
+ 
+--> Reading design: ALUUU.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "D:\Student\Desktop\lab3\MIPSMoustafaAshraf\ALUUU.vhd" into library work
+ERROR:HDLCompiler:69 - "D:\Student\Desktop\lab3\MIPSMoustafaAshraf\ALUUU.vhd" Line 23: <iee> is not declared.
+ERROR:HDLCompiler:69 - "D:\Student\Desktop\lab3\MIPSMoustafaAshraf\ALUUU.vhd" Line 24: <iee> is not declared.
+Parsing entity <ALU>.
+ERROR:HDLCompiler:854 - "D:\Student\Desktop\lab3\MIPSMoustafaAshraf\ALUUU.vhd" Line 37: Unit <alu> ignored due to previous errors.
+Parsing architecture <Behavioral> of entity <alu>.
+ERROR:HDLCompiler:374 - "D:\Student\Desktop\lab3\MIPSMoustafaAshraf\ALUUU.vhd" Line 45: Entity <alu> is not yet compiled.
+ERROR:HDLCompiler:69 - "D:\Student\Desktop\lab3\MIPSMoustafaAshraf\ALUUU.vhd" Line 52: <result> is not declared.
+ERROR:HDLCompiler:69 - "D:\Student\Desktop\lab3\MIPSMoustafaAshraf\ALUUU.vhd" Line 53: <result> is not declared.
+ERROR:HDLCompiler:69 - "D:\Student\Desktop\lab3\MIPSMoustafaAshraf\ALUUU.vhd" Line 54: <result> is not declared.
+ERROR:HDLCompiler:69 - "D:\Student\Desktop\lab3\MIPSMoustafaAshraf\ALUUU.vhd" Line 55: <result> is not declared.
+ERROR:HDLCompiler:69 - "D:\Student\Desktop\lab3\MIPSMoustafaAshraf\ALUUU.vhd" Line 58: <result> is not declared.
+ERROR:HDLCompiler:69 - "D:\Student\Desktop\lab3\MIPSMoustafaAshraf\ALUUU.vhd" Line 59: <result> is not declared.
+ERROR:HDLCompiler:69 - "D:\Student\Desktop\lab3\MIPSMoustafaAshraf\ALUUU.vhd" Line 62: <result> is not declared.
+ERROR:HDLCompiler:69 - "D:\Student\Desktop\lab3\MIPSMoustafaAshraf\ALUUU.vhd" Line 65: <equality> is not declared.
+ERROR:HDLCompiler:69 - "D:\Student\Desktop\lab3\MIPSMoustafaAshraf\ALUUU.vhd" Line 66: <equality> is not declared.
+ERROR:HDLCompiler:806 - "D:\Student\Desktop\lab3\MIPSMoustafaAshraf\ALUUU.vhd" Line 69: Syntax error near "process".
+ERROR:HDLCompiler:841 - "D:\Student\Desktop\lab3\MIPSMoustafaAshraf\ALUUU.vhd" Line 71: Expecting type  void for <behavioral>.
+VHDL file D:\Student\Desktop\lab3\MIPSMoustafaAshraf\ALUUU.vhd ignored due to errors
+--> 
+
+Total memory usage is 4495252 kilobytes
+
+Number of errors   :   15 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+
